@@ -10,7 +10,7 @@ The dataset consists of **1491 images** from the **SUN Image database**, divided
 
 - `data/`: Contains the image files categorized into folders.
 - `traintest.pkl`: A Python pickle file that stores training and testing image paths along with labels.
-(not included in repo to save memory)
+(not included in repo)
 
 ## Project Structure
 ```
