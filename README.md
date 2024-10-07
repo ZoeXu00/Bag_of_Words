@@ -10,6 +10,7 @@ The dataset consists of **1491 images** from the **SUN Image database**, divided
 
 - `data/`: Contains the image files categorized into folders.
 - `traintest.pkl`: A Python pickle file that stores training and testing image paths along with labels.
+(not included in repo to save memory)
 
 ## Project Structure
 ```
@@ -44,3 +45,20 @@ Bag_of_Words/
     └── utils.py                     # Helper functions for various operations.
 ```
 
+## Tasks
+
+The assignment consists of the following main sections:
+
+1. **Visual Words Dictionary**:
+   - Extracted filter responses for images using a provided filter bank.
+   - Built two dictionaries of visual words using **random sampling** and **Harris corner detection**.
+
+2. **Scene Recognition System**:
+   - Converted images to "word maps" using the visual words dictionary.
+   - Constructed a nearest neighbor classifier using visual word histograms.
+   - Evaluated the performance of the recognition system using test images.
+
+3. **Evaluation**:
+   - Compared the performance of different dictionaries and distance metrics (Euclidean and χ2).
+   - Generated confusion matrices and accuracy scores.
+   - Implemented **k-NN** and experimented with various values of *k*.
